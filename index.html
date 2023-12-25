@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap">
+    <title>Karan Prasad-Portfolio</title>
+</head>
+<body>
+
+
+
+
+    <header id="nav-bar">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#">
+                    <img src="images/kplog2.png" alt="Your Logo">
+                </a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger" onclick="toggleNav()">
+                    <div class="bar"></div>
+                </div>
+                <div class="navigation" id="myNavigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#hero" onclick="closeNav()">Home</a></li>
+                            <li><a href="#about" onclick="closeNav()">About</a></li>
+                            <li><a href="#services" onclick="closeNav()">Services</a></li>
+                            <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+                            <li><a href="#achievements" onclick="closeNav()">Achievements 🏆 and Certification 🎗️</a></li>
+                            <li><a href="#resume" onclick="closeNav()">My Resume</a></li>
+                            <li><a href="#contact" onclick="closeNav()">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!--------------------------------------- Hero Section -------------------------------------->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-info">
+                <h1 class="hero-info-heading">Karan Prasad</h1>
+                <p class="hero-info-subheading">Full Stack Web Developer💻</p>
+                <a href="#contact" class="hero-info-button">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!----------------------------------------- About Section -------------------------------------------->
+    <section class="about" id="about">
+        <div class="about-info">
+            <h2 class="about-info-heading">About Me</h2>
+            <p class="about-info-desc">I am a passionate web developer with expertise in HTML, CSS, and JavaScript. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="about-info-button">Read More</a>
+        </div>
+        <div class="about-img">
+            <div class="about-img-wrapper">
+                <img src="images/profile.jpg" alt="About Image">
+            </div>
+        </div>
+    </section>
+    
+<!----------------------------------------------- Services Section ------------------------------------------>
+<section class="services" id="services">
+    <div class="services-header">
+        <h2 class="services-header-heading">My Services</h2>
+        <p class="services-header-desc">I offer a range of services to meet your web development needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="services-info">
+        <div class="service">
+            <div class="service-card">
+                <div class="service-front">
+                    <i class="fas fa-code"></i>
+                    <h3 class="service-front-heading">Web Development</h3>
+                </div>
+                <div class="service-back">
+                    <h3 class="service-back-heading">Web Development</h3>
+                    <p class="service-back-desc">I specialize in creating responsive and dynamic websites using the latest technologies.</p>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="service">
+            <div class="service-card">
+                <div class="service-front">
+                    <i class="fas fa-cogs"></i>
+                    <h3 class="service-front-heading">Custom Software Development</h3>
+                </div>
+                <div class="service-back">
+                    <h3 class="service-back-heading">Custom Software Development</h3>
+                    <p class="service-back-desc">We provide custom software development tailored to your business needs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-card">
+                <div class="service-front">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3 class="service-front-heading">Mobile App Development</h3>
+                </div>
+                <div class="service-back">
+                    <h3 class="service-back-heading">Mobile App Development</h3>
+                    <p class="service-back-desc">Building innovative and user-friendly mobile applications.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-card">
+                <div class="service-front">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3 class="service-front-heading">UI/UX Design</h3>
+                </div>
+                <div class="service-back">
+                    <h3 class="service-back-heading">UI/UX Design</h3>
+                    <p class="service-back-desc">Crafting intuitive and visually appealing user interfaces and experiences.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-card">
+                <div class="service-front">
+                    <i class="fas fa-check-circle"></i>
+                    <h3 class="service-front-heading">Quality Assurance and Testing</h3>
+                </div>
+                <div class="service-back">
+                    <h3 class="service-back-heading">Quality Assurance and Testing</h3>
+                    <p class="service-back-desc">Ensuring the quality and reliability of your software through rigorous testing.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+<!------------------------------------------------ Projects Section ----------------------------------------->
+<section id="projects">
+    <h2 class="section-heading">Projects</h2>
+    <div class="projects-container">
+        <a href="https://github.com/karanprasad2706" class="project-link">
+            <div class="project-box">
+                <h3>Fnf-Grocery-Website(Public)</h3>
+                <p class="project-details">The primary objective of this project is to design a user-friendly website named FnF Grocery that empowers customers to seamlessly browse products, create shopping lists, and place orders. This initiative is driven by the growing demand for convenient grocery delivery services, the competitive nature of the market, and the commitment to enhance customer satisfaction by improving order accuracy </p>
+                <div class="project-info">
+                    <p class="technologies">Java, CSS, HTML, PHP, MySQL</p>
+                    <p class="views">
+                        <i class="fas fa-eye"></i>1000
+                    </p>
+                    <p class="file-size">2 MB</p>
+                </div>
+            </div>
+        </a>
+
+        
+        <a href="https://github.com/karanprasad2706/CODSOFT" class="project-link">
+            <div class="project-box">
+                <h3>Portfolio Website</h3>
+                <p class="project-details">  I designed and implemented a dynamic poftfolio website using HTML, CSS, and JavaScript. This project not only underscores my technical skills in web development but also demonstrates my ability to create interactive and user-friendly web applications. I take pride in contributing to a practical and functional project that showcases my dedication to advancing my web development expertise.</p>
+                <div class="project-info">
+                    <p class="technologies">JavaScript, HTML, CSS</p>
+                    <p class="views">
+                        <i class="fas fa-eye"></i>1500
+                    </p>
+                    <p class="file-size">3 MB</p>
+                </div>
+            </div>
+        </a>
+
+        
+        <a href="https://github.com/karanprasad2706/CODSOFT--2" class="project-link">
+            <div class="project-box">
+                <h3>Landing Web Page</h3>
+                <p class="project-details">I created a dynamic landing page for Internship, balancing a clean design with user-friendly elements. It includes a concise header, engaging hero section, toggleable about segment, and showcases the team, projects, and services. The achievements section adds credibility, and a responsive design ensures a polished user experience. This project reflects my skills in web development and UI/UX design.</p>
+                <div class="project-info">
+                    <p class="technologies">Java, CSS, HTML(UI/UX design)</p>
+                    <p class="views">
+                        <i class="fas fa-eye"></i>100
+                    </p>
+                    <p class="file-size">2.4 MB</p>
+                </div>
+            </div>
+        </a>
+
+       
+        <a href="https://github.com/karanprasad2706/PRODIGY_WD_05" class="project-link">
+            <div class="project-box">
+                <h3> Weather Application</h3>
+                <p class="project-details">The  Weather Search is to offer users a quick and reliable way to access up-to-date weather details. By utilizing the OpenWeatherMap API, the application fetches comprehensive weather data based on user input, presenting it in a visually appealing and informative manner. This project aims to enhance user experience in obtaining weather information while demonstrating practical web development skills.</p>
+                <div class="project-info">
+                    <p class="technologies">JavaScript, HTML, CSS</p>
+                    <p class="views">
+                        <i class="fas fa-eye"></i>721
+                    </p>
+                    <p class="file-size">3 MB</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+
+<!------------------------------------------------ Achievement Section ----------------------------------------->
+
+
+<section id="Achievements">
+    <h2>Achievements 🏆 and Certification 🎗️</h2>
+    <p>ACHIEVEMENT, CERTIFICATION AWARD LETTERS AND SOME COOL STUFF THAT I HAVE DONE !</p>
+    <div class="achievement-container">
+        <div class="achievement">
+            <img src="images/codsoft.jpg" alt="Achievement 1">
+            <h3>Web Developer Internship</h3>
+            <p>Seeking a dynamic web development internship to apply and enhance my coding skills, collaborating on real-world projects while gaining hands-on experience in front-end and back-end technologies.</p>
+        </div>
+
+        <div class="achievement">
+            <img src="images/prodigyy.jpg.png" alt="Achievement 2">
+            <h3>Web Developer Internship</h3>
+            <p>Seeking a dynamic web development internship to apply and enhance my coding skills, collaborating on real-world projects while gaining hands-on experience in front-end and back-end technologies.</p>
+        </div>
+
+        <div class="achievement">
+            <img src="images/bharatintern.jpg" alt="Achievement 3">
+            <h3>Web Developer Internship</h3>
+            <p>I interned in web development at Bharat Intern, discovering new skills and gaining hands-on experience that broadened my knowledge in the field.</p>
+        </div>
+    </div>
+</section>
+
+    <!---------------------------------------------- Hire Section ----------------------------------------->
+    <section class="hire">
+        <div class="hire-heading">Ready to start your project?</div>
+        <a href="#" class="hire-button">Hire Me</a>
+    </section>
+
+
+
+
+    <!------------------------------------------------ Resume Section --------------------------------------->
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Download my <a href="https://drive.google.com/file/d/1ORiXxJDOv-a3d8hunBmabmA2P5Ilc_Is/view?usp=drive_link" target="_blank">resume</a>.</p>
+</section>
+
+<!-------------------------------------------------- Contact Section -------------------------------------------->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to get in touch with me for any inquiries or collaborations!</p>
+
+    <a href="https://forms.gle/ZBiXXkfufpFnjHFQA" class="contact-button">Send Message</a>
+
+    <div class="contact-info">
+        <p>Email: karanprasad721@gmail.com</p>
+        <p>Phone: +91 82910 42448</p>
+        <p>Address: Kalyan East, Thane, Maharashtra</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2023 . All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="portfolio-web-/rdxitsed-for2.js"></script>
+
+</body>
+</html>
